@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function App() {
+function Landing() {
     return (
       
       <div className="App">
@@ -43,3 +43,5 @@ function App() {
       </div>
     );
   }
+
+  export default Landing;

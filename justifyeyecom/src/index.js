@@ -5,13 +5,13 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Route, Switch } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
-
+import landing from './components/pages/landing';
 import home from "./components/pages/home";
 
 ReactDOM.render(
  <BrowserRouter>
   <Switch>
-   <Route path="/" component={App} />
+   <Route path="/" component={landing} />
    <Route path="/home" component={home} />
   </Switch>
  </BrowserRouter>,
